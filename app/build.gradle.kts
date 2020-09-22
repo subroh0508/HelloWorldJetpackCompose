@@ -41,9 +41,12 @@ android {
 
 dependencies {
     implementation(kotlinStdlib)
+    implementation(Libraries.Coroutines.core)
+    implementation(Libraries.Coroutines.android)
+    implementation(Libraries.material)
     implementation(Libraries.Jetpack.core)
     implementation(Libraries.Jetpack.appCompat)
-    implementation(Libraries.material)
+    implementation(Libraries.Jetpack.activity)
     implementation(Libraries.Jetpack.Compose.ui)
     implementation(Libraries.Jetpack.Compose.material)
     implementation(Libraries.Jetpack.Compose.uiTooling)
